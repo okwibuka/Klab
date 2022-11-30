@@ -1,0 +1,405 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body {
+    background: linear-gradient(to right, blue 0%,blue 50%, Lavender 50%, Lavender 100%);
+}
+.container
+{
+    background-color: whitesmoke;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    border-radius: 6px;
+    opacity: 0.2px;
+   
+}
+.section-one
+{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: Lavender;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.section-one-circle
+{
+    position: relative;
+    text-align: center;
+    width: 53%;
+    height: 64%;
+   border-radius: 50%; 
+   background-color: blue;
+   justify-content: center;
+   top: 6em;
+   left: 8em;
+}
+.section-one-body-header
+{
+    position: relative;
+    width: 29rem;
+    height: 20rem;
+    border-radius: 5px;
+    background-color: lightgray;
+    top: 1.6em;
+    left: -4em;
+}
+.section-one-body
+{
+    position: relative;
+    width: 25rem;
+    height: 17rem;
+    border-radius: 5px;
+    background-color: white;
+    top: 1em;
+    left: 1.4em;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-one-body.container-one
+{
+    display: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: transparent; 
+    top: -4;
+    margin-left: -2em;
+    
+}
+.section-one-body.container-two
+{
+    display: absolute;
+     background-color: transparent; 
+    height: 100%;
+    width: 50%;
+    top: 0;
+    margin-left: -2em;   
+}
+
+.container-one-circle-one
+{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    background: conic-gradient(#a6b7d4 0deg 90deg,#4c6fff 90deg 150deg,#ff92ae 150deg 270deg,#a6b7d4 270deg 360deg);
+    position: relative;
+    margin-top: 6em;
+    margin-right: 4em;
+    
+}
+.container-one-circle-two
+{
+    width: 3em;
+    margin-left: 2px;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    height: 3em;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+.cards
+{
+   position: absolute;
+   display: flex;
+   flex-direction: row;
+   margin-left: 0.2em;
+   justify-content: space-between;
+   width: 11em;
+   margin-top: 13em;
+   margin-right: 1em;
+   height: auto;
+   
+}
+.card
+{
+   padding: 10px;
+   height: 7px;
+   margin-right: 5px;
+   border-radius: 5px;
+   display: absolute;
+
+}
+.card-one
+{
+    background-color: LightGray;
+    color: gray;
+}
+.card-two
+{
+    background-color: LightGreen;
+    color: green;
+}
+.card-three
+{
+    background-color: rgb(197, 95, 77);
+    color: red;
+}
+
+.section-one-footer
+{
+    position: absolute;
+    top: 120%;
+}
+.footer-cards
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 144%;
+}
+.foot
+{
+    width: 7em ;
+    background-color: rgb(209, 209, 181);
+    margin-right: 10px;
+    height: 5px;
+}
+.footer-card-one
+{
+    background-color: blue;
+}
+
+.section-one-header
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.section-one-header-box
+{
+background-color: violet;
+width: 2em;
+height: 2em;
+margin-right: 10px;
+border-radius: 6px;
+}
+
+.rect
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+.rect-cont
+{
+    background-color: rgb(129, 184, 129);
+    color: green;
+    width: 40px;
+    padding: 4px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.p{
+   
+    width: fit-content;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.p-circle
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: orangered;
+    position: absolute;
+    right: 15;
+    top: 15;
+
+}
+.section-one-container-one
+{
+    position: absolute;
+    width: 10rem;
+    height: 7rem;
+    border: 5px;
+    background-color: white;
+    border-style: outset;
+    border-width: 1.5px;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 3px;
+   
+}
+.section-one-container-two
+{
+    
+    position: absolute;
+    margin-top: 8.5em;
+    border-radius: 8px;
+    width: 10rem;
+    height: 7rem;
+    border: 5px;
+    background-color: white;
+    border-style: outset;
+    padding: 3px;
+    border-width: 1.5px;
+}
+
+.section-two
+{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: right;
+    left: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.section-two-body
+{
+    margin-top: 2em;  
+    background-color: 	Lavender;
+    width: 50%;
+    height: 85%;
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 7em;
+   padding: 1em;border-radius: 6px;
+   color: grey;
+}
+h3
+{
+    color: black;
+    margin-bottom: 3px;
+}
+
+
+form
+{
+     margin-top: 10px;
+} 
+label
+{
+    display: inline-block;
+    margin-left: -2em;
+    margin-top: 7px;
+}
+.label
+{
+    background-color: white;
+    height: 2.5em;
+    border: none;
+    width: 20em;
+    border-radius: 6px;
+    text-align: center;
+}
+.label-name
+{
+margin-left: -12em;
+margin-bottom: 3px;
+}
+.label-email
+{
+margin-left: -7em;
+margin-bottom: 3px;
+}
+.label-password
+{
+    margin-left: -12em;
+    margin-bottom: 3px; 
+}
+span
+{
+    margin-left: -6em;
+    
+}
+input.password
+{
+    margin-bottom: 4px;
+}
+
+.button
+{
+    background-color: blue;
+    padding: 13px;
+    width: 15em;
+    color: white; 
+    font-weight: bold;
+    height: 7px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-bottom: 1.4em;
+
+}
+
+
+.accounts
+{
+   display: flex; 
+   flex-direction: row;
+   justify-content: center;
+   margin-bottom: 1em;
+   margin-top: 10px;
+   
+}
+.account-box
+{
+    margin-left: 8px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.message-icon
+{
+
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed;
+    right: 7%;
+    bottom: 7%;
+
+}
+.msg-icon
+{
+    margin-top: 13px;
+    margin-right: 13px;
+}
+
+
+/* @media */
+@media only screen and (max-width: 720px){
+    .box
+    {
+
+       width: auto;
+    }
+    .box-2
+    {
+margin-left: auto;
+    }
+}
+@media only screen and (max-width: 638px)
+{
+    .box-2
+    {
+margin-right: -20%;
+    }
+}
